@@ -35,6 +35,7 @@ object FBusca: TFBusca
         Top = 19
         Width = 66
         Height = 21
+        ItemIndex = 0
         TabOrder = 0
         Text = 'Todos'
         OnExit = cb_BuscaExit
