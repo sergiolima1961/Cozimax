@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/07/18 09:53:17.000.086,C:\Users\slima\Documents\NS TELECOM\source\CadCliente.dfm=C:\Users\slima\Documents\NS TELECOM\source\CadFornecedor.dfm</Transaction>
+    <Transaction>2020/07/18 09:53:17.000.086,C:\Users\slima\Documents\NS TELECOM\source\CadCliente.pas=C:\Users\slima\Documents\NS TELECOM\source\CadFornecedor.pas</Transaction>
+    <Transaction>2020/07/18 09:55:10.000.738,=C:\Users\slima\Documents\NS TELECOM\source\CadCliente.pas</Transaction>
+    <Transaction>2020/07/18 12:31:14.000.614,=C:\Users\slima\Documents\NS TELECOM\source\Unit1.pas</Transaction>
+    <Transaction>2020/07/18 12:32:01.000.737,C:\Users\slima\Documents\NS TELECOM\source\UCadProduto.dfm=C:\Users\slima\Documents\NS TELECOM\source\Unit1.dfm</Transaction>
+    <Transaction>2020/07/18 12:32:01.000.737,C:\Users\slima\Documents\NS TELECOM\source\UCadProduto.pas=C:\Users\slima\Documents\NS TELECOM\source\Unit1.pas</Transaction>
+    <Transaction>2020/07/18 12:34:18.000.962,=C:\Users\slima\Documents\NS TELECOM\source\Unit1.pas</Transaction>
+    <Transaction>2020/07/18 12:35:29.000.739,C:\Users\slima\Documents\NS TELECOM\source\UCadProduto.pas=</Transaction>
+    <Transaction>2020/07/18 12:35:45.000.679,C:\Users\slima\Documents\NS TELECOM\source\UCadProduto.dfm=C:\Users\slima\Documents\NS TELECOM\source\Unit1.dfm</Transaction>
+    <Transaction>2020/07/18 12:35:45.000.679,C:\Users\slima\Documents\NS TELECOM\source\UCadProduto.pas=C:\Users\slima\Documents\NS TELECOM\source\Unit1.pas</Transaction>
+    <Transaction>2020/07/18 16:18:06.000.853,=C:\Users\slima\Documents\NS TELECOM\source\Unit1.pas</Transaction>
+    <Transaction>2020/07/18 16:34:27.000.445,C:\Users\slima\Documents\NS TELECOM\source\Unit1.pas=C:\Users\slima\Documents\NS TELECOM\source\URegPedidos.pas</Transaction>
+    <Transaction>2020/07/18 16:34:27.000.445,C:\Users\slima\Documents\NS TELECOM\source\Unit1.dfm=C:\Users\slima\Documents\NS TELECOM\source\URegPedidos.dfm</Transaction>
+    <Transaction>2020/07/19 12:25:47.000.764,C:\Users\slima\Documents\NS TELECOM\source\CadVenda.pas=</Transaction>
+    <Transaction>2020/07/19 23:41:42.000.904,C:\Users\slima\Documents\NS TELECOM\source\ListagemArquivos.pas=</Transaction>
+    <Transaction>2020/11/07 09:58:15.000.806,C:\Users\slima\Documents\Guarani Sistemas\source\GuaraniSistemas.dproj=C:\Users\slima\Documents\Guarani Sistemas\source\NSTELECOM.dproj</Transaction>
+    <Transaction>2020/11/10 21:10:18.000.590,C:\Users\slima\Documents\ACAI Sistemas\source\Acaistemas.dproj=C:\Users\slima\Documents\ACAI Sistemas\source\GuaraniSistemas.dproj</Transaction>
+    <Transaction>2021/01/12 20:53:19.000.807,C:\Font_Cozimax\source\Cozimax.dproj=C:\Font_Cozimax\source\Acaistemas.dproj</Transaction>
+    <Transaction>2021/01/13 11:02:11.000.355,C:\Font_Cozimax\source\CadFornecedor.pas=</Transaction>
+    <Transaction>2021/01/13 11:06:53.000.234,C:\Font_Cozimax\source\UCadUsuario.pas=</Transaction>
+    <Transaction>2021/01/14 08:59:48.000.990,C:\Font_Cozimax\source\Ulogin.pas=</Transaction>
+    <Transaction>2021/01/14 11:25:17.000.188,=C:\Font_Cozimax\source\Unit1.pas</Transaction>
+    <Transaction>2021/01/14 11:30:02.000.532,C:\Font_Cozimax\source\uBusca.dfm=C:\Font_Cozimax\source\Unit1.dfm</Transaction>
+    <Transaction>2021/01/14 11:30:02.000.532,C:\Font_Cozimax\source\uBusca.pas=C:\Font_Cozimax\source\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="CadCliente.pas"/>
+    <File Path="CadCliente.dfm"/>
+    <File Path="InscricaoFiscal.pas"/>
+    <File Path="Main.pas"/>
+    <File Path="Main.dfm"/>
+    <File Path="UCadProduto.pas"/>
+    <File Path="UCadProduto.dfm"/>
+    <File Path="uDM_testePratico.pas"/>
+    <File Path="uDM_testePratico.dfm"/>
+    <File Path="URegPedidos.pas"/>
+    <File Path="URegPedidos.dfm"/>
+    <File Path="uBusca.pas"/>
+    <File Path="uBusca.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
