@@ -30,8 +30,6 @@ object FRegPedidos: TFRegPedidos
       Align = alTop
       BevelInner = bvSpace
       TabOrder = 0
-      ExplicitLeft = 2
-      ExplicitTop = 0
       object Label1: TLabel
         Left = 20
         Top = 51
@@ -209,7 +207,6 @@ object FRegPedidos: TFRegPedidos
       Align = alTop
       BevelInner = bvLowered
       TabOrder = 1
-      ExplicitTop = 193
       object Label9: TLabel
         Left = 166
         Top = 36

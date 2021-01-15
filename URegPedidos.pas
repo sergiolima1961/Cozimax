@@ -194,14 +194,9 @@ begin
   if MessageDlg('Confirma a exclusão do Pedido ?', TMsgDlgType.mtConfirmation,
     [TMsgDlgBtn.mbYes, TMsgDlgBtn.mbNo], 0) = idYes then
   begin
-
-    DM_testepratico.FvItemPedido.First;
-    while not DM_testepratico.FvItemPedido.Eof do
-    begin
-      Button8Click(Self);
-      DM_testepratico.FvItemPedido.Next;
-    end;
+    DM_testepratico.FvItemPedido.CLOSE;
     Button3Click(Self);
+    DM_testepratico.FvItemPedido.Open;
   end;
 end;
 
