@@ -28,8 +28,9 @@ object FRegPedidos: TFRegPedidos
       Width = 498
       Height = 101
       Align = alTop
-      BevelInner = bvSpace
+      BevelOuter = bvNone
       TabOrder = 0
+      ExplicitTop = 0
       object Label1: TLabel
         Left = 20
         Top = 51
@@ -124,16 +125,18 @@ object FRegPedidos: TFRegPedidos
         OnExit = dblClienteExit
       end
       object Panel3: TPanel
-        Left = 2
-        Top = 2
-        Width = 494
+        Left = 0
+        Top = 0
+        Width = 498
         Height = 33
         Align = alTop
         AutoSize = True
-        BevelInner = bvLowered
         Caption = 'Panel1'
         ShowCaption = False
         TabOrder = 2
+        ExplicitLeft = 2
+        ExplicitTop = 2
+        ExplicitWidth = 494
         object Label16: TLabel
           Left = 653
           Top = 2
@@ -142,57 +145,65 @@ object FRegPedidos: TFRegPedidos
           Caption = '0000/0000'
         end
         object Button1: TButton
-          Left = -3
-          Top = 6
-          Width = 51
-          Height = 25
+          Left = 1
+          Top = 1
+          Width = 60
+          Height = 31
+          Align = alLeft
           Caption = 'Novo'
           TabOrder = 0
           OnClick = Button1Click
         end
         object Button2: TButton
-          Left = 214
-          Top = 6
-          Width = 51
-          Height = 25
+          Left = 241
+          Top = 1
+          Width = 60
+          Height = 31
+          Align = alLeft
           Caption = 'Cancelar'
           Enabled = False
           TabOrder = 1
           OnClick = Button2Click
+          ExplicitLeft = 181
         end
         object Button3: TButton
-          Left = 157
-          Top = 6
-          Width = 51
-          Height = 25
+          Left = 181
+          Top = 1
+          Width = 60
+          Height = 31
+          Align = alLeft
           Caption = 'Gravar'
           Enabled = False
           TabOrder = 2
           OnClick = Button3Click
+          ExplicitTop = -6
         end
         object Button4: TButton
-          Left = 53
-          Top = 6
-          Width = 51
-          Height = 25
+          Left = 61
+          Top = 1
+          Width = 60
+          Height = 31
+          Align = alLeft
           Caption = 'Editar'
           TabOrder = 3
           OnClick = Button4Click
         end
         object Button5: TButton
-          Left = 105
-          Top = 5
-          Width = 51
-          Height = 25
+          Left = 121
+          Top = 1
+          Width = 60
+          Height = 31
+          Align = alLeft
           Caption = 'Excluir'
           TabOrder = 4
           OnClick = Button5Click
         end
         object BtFechar: TButton
-          Left = 277
-          Top = 6
-          Width = 77
-          Height = 25
+          Left = 301
+          Top = 1
+          Width = 60
+          Height = 31
+          Align = alLeft
           Caption = 'Pesquisa..'
           TabOrder = 5
           OnClick = BtFecharClick
@@ -205,7 +216,7 @@ object FRegPedidos: TFRegPedidos
       Width = 498
       Height = 81
       Align = alTop
-      BevelInner = bvLowered
+      BevelOuter = bvNone
       TabOrder = 1
       object Label9: TLabel
         Left = 166
@@ -246,9 +257,9 @@ object FRegPedidos: TFRegPedidos
         ParentFont = False
       end
       object pnl_item: TPanel
-        Left = 2
-        Top = 2
-        Width = 494
+        Left = 0
+        Top = 0
+        Width = 498
         Height = 29
         Align = alTop
         AutoSize = True
@@ -256,6 +267,9 @@ object FRegPedidos: TFRegPedidos
         BevelOuter = bvSpace
         ShowCaption = False
         TabOrder = 3
+        ExplicitLeft = 2
+        ExplicitTop = 2
+        ExplicitWidth = 494
         object Label3: TLabel
           Left = 651
           Top = 3
@@ -264,39 +278,46 @@ object FRegPedidos: TFRegPedidos
           Caption = '0000/0000'
         end
         object Button6: TButton
-          Left = 4
+          Left = 2
           Top = 2
-          Width = 51
+          Width = 60
           Height = 25
+          Align = alLeft
           Caption = 'Novo'
           TabOrder = 0
           OnClick = Button6Click
         end
         object Button7: TButton
-          Left = 166
+          Left = 182
           Top = 2
-          Width = 51
+          Width = 60
           Height = 25
+          Align = alLeft
           Caption = 'Cancelar'
           Enabled = False
           TabOrder = 1
           OnClick = Button7Click
+          ExplicitLeft = 122
         end
         object Button8: TButton
-          Left = 110
+          Left = 122
           Top = 2
-          Width = 51
+          Width = 60
           Height = 25
+          Align = alLeft
           Caption = 'Gravar'
           Enabled = False
           TabOrder = 2
           OnClick = Button8Click
+          ExplicitLeft = 121
+          ExplicitTop = 5
         end
         object Button10: TButton
-          Left = 57
+          Left = 62
           Top = 2
-          Width = 51
+          Width = 60
           Height = 25
+          Align = alLeft
           Caption = 'Excluir'
           TabOrder = 3
           OnClick = Button10Click
@@ -398,7 +419,6 @@ object FRegPedidos: TFRegPedidos
           Expanded = False
           FieldName = 'Total'
           Title.Alignment = taRightJustify
-          Width = 64
           Visible = True
         end>
     end

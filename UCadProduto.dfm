@@ -42,51 +42,64 @@ object FCadProduto: TFCadProduto
         Caption = '0000/0000'
       end
       object Button1: TButton
-        Left = 3
+        Left = 2
         Top = 2
         Width = 48
         Height = 25
+        Align = alLeft
         Caption = 'Novo'
         TabOrder = 0
         OnClick = Button1Click
+        ExplicitLeft = -4
+        ExplicitTop = -2
       end
       object Button2: TButton
-        Left = 209
+        Left = 194
         Top = 2
         Width = 48
         Height = 25
+        Align = alLeft
         Caption = 'Cancelar'
         Enabled = False
         TabOrder = 1
         OnClick = Button2Click
+        ExplicitLeft = 166
+        ExplicitTop = -2
       end
       object Button3: TButton
-        Left = 155
+        Left = 146
         Top = 2
         Width = 48
         Height = 25
+        Align = alLeft
         Caption = 'Gravar'
         Enabled = False
         TabOrder = 2
         OnClick = Button3Click
+        ExplicitLeft = 138
+        ExplicitTop = -2
       end
       object Button4: TButton
-        Left = 53
+        Left = 50
         Top = 2
         Width = 48
         Height = 25
+        Align = alLeft
         Caption = 'Editar'
         TabOrder = 3
         OnClick = Button4Click
+        ExplicitLeft = 53
       end
       object Button5: TButton
-        Left = 105
+        Left = 98
         Top = 2
         Width = 48
         Height = 25
+        Align = alLeft
         Caption = 'Excluir'
         TabOrder = 4
         OnClick = Button5Click
+        ExplicitLeft = 105
       end
     end
     object Panel2: TPanel
@@ -96,7 +109,6 @@ object FCadProduto: TFCadProduto
       Height = 107
       Align = alTop
       TabOrder = 1
-      ExplicitTop = 34
       object Label1: TLabel
         Left = 30
         Top = 13

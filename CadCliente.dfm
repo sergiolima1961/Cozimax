@@ -89,47 +89,58 @@ object fCadCliente: TfCadCliente
         Top = 2
         Width = 56
         Height = 25
+        Align = alLeft
         Caption = 'Novo'
         TabOrder = 0
         OnClick = Button1Click
       end
       object Button2: TButton
-        Left = 238
+        Left = 170
         Top = 2
         Width = 56
         Height = 25
+        Align = alLeft
         Caption = 'Cancelar'
         Enabled = False
         TabOrder = 1
         OnClick = Button2Click
+        ExplicitLeft = 202
+        ExplicitTop = 8
       end
       object Button3: TButton
-        Left = 178
+        Left = 226
         Top = 2
         Width = 56
         Height = 25
+        Align = alLeft
         Caption = 'Gravar'
         Enabled = False
         TabOrder = 2
         OnClick = Button3Click
+        ExplicitLeft = 176
+        ExplicitTop = -2
       end
       object Button4: TButton
-        Left = 60
+        Left = 58
         Top = 2
         Width = 56
         Height = 25
+        Align = alLeft
         Caption = 'Editar'
         TabOrder = 3
         OnClick = Button4Click
+        ExplicitLeft = 60
       end
       object Button5: TButton
-        Left = 120
+        Left = 114
         Top = 2
         Width = 56
         Height = 25
+        Align = alLeft
         Caption = 'Excluir'
         TabOrder = 4
         OnClick = Button5Click
+        ExplicitLeft = 120
       end
     end
     object DBGrid1: TDBGrid
